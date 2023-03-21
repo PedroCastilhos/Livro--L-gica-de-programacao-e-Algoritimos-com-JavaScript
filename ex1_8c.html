@@ -1,0 +1,11 @@
+<meta charset="utf-8" />
+<script>
+  const preco = Number(prompt('Qual é valor da conta? '));
+  const avista = preco - preco * 0.1;
+  const parcelado = preco / 3;
+  alert(
+    `As opções de pagamento ficam da seguinda forma:\nÀ vista: R$${avista}\nParcelado em 3x: R$${parcelado.toFixed(
+      0
+    )}`
+  );
+</script>
